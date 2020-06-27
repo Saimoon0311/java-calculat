@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main">
+<table class="tab">
+
+<!-- <tr>
+    <th  id="result" class="first result" colspan="4" style="height: 50px;"></th>
+</tr>
+
+<tr>
+    <th id="result" class="first result" colspan="4" style="height: 50px;"></th>
+</tr> -->
+<div class="inss">
+<input id="result" class="first result" type="text" placeholder="Calculation" style="height: 50px;padding-left: 5px;">
+<input id="results" class="first result" type="text" placeholder="Result" style="height: 50px;padding-left: 5px;">
+</div>
+<tr>
+    <td  onclick="clearResult()" class="fi" colspan="3">C</td>
+    <td  onclick="getNumber('%')" class="fi" colspan="1">%</td>
+</tr>
+
+<tr>
+    <td onclick="getNumber('7')">7</td>
+    <td onclick="getNumber('8')">8</td>
+    <td onclick="getNumber('9')">9</td>
+    <td onclick="getNumber('*')">x</td>
+</tr>
+
+<tr>
+    <td onclick="getNumber('4')">4</td>
+    <td onclick="getNumber('5')">5</td>
+    <td onclick="getNumber('6')">6</td>
+    <td onclick="getNumber('-')">-</td>
+</tr>
+
+<tr>
+    <td onclick="getNumber('1')">1</td>
+    <td onclick="getNumber('2')">2</td>
+    <td onclick="getNumber('3')">3</td>
+    <td onclick="getNumber('+')">+</td>
+</tr>
+
+<tr>
+    <td  colspan="2" style="height: 50px;" onclick="getNumber('0')">0</td>
+    <td onclick="getNumber('.')">.</td>
+    <td colspan="2" class="esess" onclick="getResult()">=</td>
+</tr>
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>

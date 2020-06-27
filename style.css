@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    
+}
+.main{
+    border: 2px solid white;
+    margin: 0px auto;
+    width: 400px;
+    color: black;
+}
+.inss{
+    /* border:2px solid black; */
+}
+.tab{
+    background-color: black;
+    width: 400px;
+    text-align: center;
+    height: 600px;
+    font-size: 30px;
+    font-weight: bold;
+}
+td,th{
+    border: 2px solid;
+    background-color: grey;
+    /* color: white; */
+}
+td:hover{
+    font-weight: bolder;
+    /* color: white; */
+    background-color: darkgrey;
+}
+td:focus{
+    color: white;
+}
+.first{
+     /* background-color: yellow; */
+     width: 98%;   
+}
+input{
+    color: white;
+    /* border-color: black; */
+}
+input:hover{
+    background-color: darkgrey;
+}
+::placeholder{
+    color: white;
+}
+.result{
+    font-size: 30px;
+    border-bottom: 2px solid;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: grey;
+}
+.esess{
+    height: 50px;
+    background-color: darkgreen;
+}
+.esess:hover{
+     background-color: green;
+}
